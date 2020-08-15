@@ -1,0 +1,21 @@
+1. 复制一份build.bat.in可执行文件到build.bat，修改配置
+
+a) 配置python执行路径
+
+根据bat脚本提示安装python 3.7  32位，到自定义路径
+https://www.python.org/ftp/python/3.7.0/python-3.7.0.exe
+
+b)配置python路径 
+C:\Program Files(x86)\Python37-32\python.exe
+
+
+
+
+2.复制一份配置文件config.ini.in到config.ini，修改配置文件对应项的路径
+
+a) 配置7zip执行路径
+C:\Program Files (x86)\7-Zip\7z.exe
+
+c) 安装nsis（不配置的话从注册表中找nsis安装路径）
+NSIS (Nullsoft Scriptable Install System) 是一个专业开源的制作 windows 安装程序的工具。
+
